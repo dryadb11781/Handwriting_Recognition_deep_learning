@@ -17,14 +17,17 @@ you can use this page to predict number,for example if I write a number two.<br>
 ##Installation Dependencies:
 
 | os| gpu | IDE|  website framework|  
-| -- | -- | -- | -- | 
-| win10 | GTX 1060 | anaconda:3.5.2|django| 
+| -- | -- | -- | -- |
+| win10 | GTX 1060 | anaconda:3.5.2|django|
 <br>
 ##Installation step:
 first step: install CUDA and cuDNN for installing tensorflow1.4
+<br>
 install tourtial URL:https://www.tensorflow.org/install/install_windows
+<br>
 two step: pip install -r requirements.txt
-third step : change your cmd path to manage.py folder and run manage.py script
+<br>
+third step : change your cmd path to manage.py folder and run manage.py script<br>
 ![](readmepics/cmd_runserver.PNG)
 python manage.py runserver
 ![](readmepics/success_local_web.PNG)
