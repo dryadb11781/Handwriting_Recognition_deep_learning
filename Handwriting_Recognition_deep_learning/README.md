@@ -17,7 +17,7 @@ you can use this page to predict number,for example if I write a number two.<br>
 ##Installation Dependencies:
 env:<br>
 | os| gpu | IDE|  website framework|
-| ------| ------ | ------ | ------ |
+| ------:------:|:------:|------:|
 | win10 | GTX 1060 | anaconda:3.5.2|django|
 <br>
 ##Installation step:
