@@ -28,6 +28,8 @@ install tourtial URL:https://www.tensorflow.org/install/install_windows
 two step: pip install -r requirements.txt
 <br>
 third step : change your cmd path to manage.py folder and run manage.py script<br>
+
 ![](readmepics/cmd_runserver.PNG)
-python manage.py runserver
+<br>python manage.py runserver
+
 ![](readmepics/success_local_web.PNG)
