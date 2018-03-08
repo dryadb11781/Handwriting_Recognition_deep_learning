@@ -8,8 +8,11 @@ The website include two pages:
 ![](readmepics/data_generator_page.PNG)
 2.http://127.0.0.1:8000/index/
 ![](readmepics/predictpage.PNG)
+<br>
 ![](readmepics/example.PNG)
+<br>
 ![](readmepics/result.PNG)
+<br>
 ##Installation Dependencies:
 env:os:windwos10
     gpu:GTX 1060
