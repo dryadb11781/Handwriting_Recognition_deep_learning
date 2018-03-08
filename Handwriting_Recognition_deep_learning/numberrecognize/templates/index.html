@@ -1,0 +1,39 @@
+
+
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>number-recognize</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    var csrf =  '{{ csrf_token }}'
+    </script>
+  </head>
+<body>
+
+<center>
+<p><font size="3" color="blue">Number Recognize</font></p>
+
+<br>
+<br>
+
+<canvas id="myCanvas" width="170" height="170" style="border:#000 1px solid;"></canvas>
+
+<br>
+<br>
+<br>
+<button type="button" onclick="clearPad()">clear</button>
+<br>
+<br>
+<button type="button" onclick="gray_level_piex_acces()">submit</button>
+<br>
+<br>
+<label id="number_result">result</label>
+<p><b>This application powerd by Yu Nian ou</b></p>
+</center>
+
+<canvas id="myCanvas2" width="64" height="64" style="display:none"></canvas>
+{% load staticfiles%}
+<script type="text/javascript" src= "{% static "js/index.js" %} " ></script>
+
+</body>
