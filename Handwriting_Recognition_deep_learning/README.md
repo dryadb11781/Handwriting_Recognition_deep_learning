@@ -15,7 +15,6 @@ you can use this page to predict number,for example if I write a number two.<br>
 ![](readmepics/result.PNG)
 <br>
 ##Installation Dependencies:
-env:<br>
 
 | os| gpu | IDE|  website framework|  
 | -- | -- | -- | -- | 
