@@ -1,13 +1,13 @@
 # Handwriting_Recognition_machine_learning
 機器學習手寫辨識數字專案
-This project is a example about number_recognizing by tensorflow and django framework.
-If you have installed tensorflow and django.
-you can use python manage.py runserver to run this project.
+This project is a example about number_recognizing by tensorflow and django framework.<br>
+If you have installed tensorflow and django.<br>
+you can use python manage.py runserver to run this project.<br>
 The website include two pages:
 1.http://127.0.0.1:8000/data_generator/
 ![](readmepics/data_generator_page.PNG)
 2.http://127.0.0.1:8000/index/
-<br>
+you can use this page to predict number,for example if I write a number two.<br>
 ![](readmepics/predictpage.PNG)
 <br>
 ![](readmepics/example.PNG)
@@ -15,11 +15,12 @@ The website include two pages:
 ![](readmepics/result.PNG)
 <br>
 ##Installation Dependencies:
-env:os:windwos10
-    gpu:GTX 1060
-    IDE: anaconda:3.5.2
-    website framework:django
-
+env:<br>
+| os| gpu | IDE|  website framework|
+| ------| ------ | ------ | ------ |
+| win10 | GTX 1060 | anaconda:3.5.2|django|
+<br>
+##Installation step:
 first step: install CUDA and cuDNN for installing tensorflow1.4
 install tourtial URL:https://www.tensorflow.org/install/install_windows
 two step: pip install -r requirements.txt
