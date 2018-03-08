@@ -7,6 +7,7 @@ The website include two pages:
 1.http://127.0.0.1:8000/data_generator/
 ![](readmepics/data_generator_page.PNG)
 2.http://127.0.0.1:8000/index/
+<br>
 ![](readmepics/predictpage.PNG)
 <br>
 ![](readmepics/example.PNG)
