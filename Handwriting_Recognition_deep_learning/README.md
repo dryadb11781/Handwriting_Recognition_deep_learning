@@ -23,12 +23,12 @@ you can use this page to predict number,for example if I write a number two.<br>
 | -- | -- | -- | -- |
 | win10 | GTX 1060 | anaconda:3.5.2|django|
 <br>
-##Installation step:
+##Installation step:<br>
 first step: install CUDA and cuDNN for installing tensorflow1.4
 <br>
 install tourtial URL:https://www.tensorflow.org/install/install_windows
 <br>
-two step: pip install -r requirements.txt
+second step: pip install -r requirements.txt
 <br>
 third step : change your cmd path to manage.py folder and run manage.py script<br>
 
