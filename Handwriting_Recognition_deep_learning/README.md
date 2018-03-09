@@ -3,6 +3,9 @@
 This project is a example about number_recognizing by tensorflow and django framework.<br>
 If you have installed tensorflow and django.<br>
 you can use python manage.py runserver to run this project.<br>
+if you want to train your model,you follow the two step.<br>
+first: you can use data_generator page to create your dataset,it will save in the data folder.<br>
+second run train.py.<br>
 The website include two pages:
 1.http://127.0.0.1:8000/data_generator/
 ![](readmepics/data_generator_page.PNG)
