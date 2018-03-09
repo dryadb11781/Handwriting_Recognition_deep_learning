@@ -144,7 +144,7 @@ def predict(request):
 
 
       mnist_classifier = tf.estimator.Estimator(
-          model_fn=cnn_model_fn, model_dir=r"D:\hand_reconiciton\models-master\models-master\tutorials\image\mnist\model_save")
+          model_fn=cnn_model_fn, model_dir=r"..\..\model_save"")
 
       # Set up logging for predictions
       # Log the values in the "Softmax" tensor with label "probabilities"
