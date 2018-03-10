@@ -139,12 +139,10 @@ def predict(request):
     def tf_predict_number(image):
       # Load training and eval data
       eval_data = np.float32(image)  # Returns np.array
-    #  eval_labels = np.asarray(target, dtype=np.int32)
-
-
-
+      base_path=os.path.split(os.path.realpath(__file__))[0]
+      tf_model_path=join(base_path,'..','..','model_save')
       mnist_classifier = tf.estimator.Estimator(
-          model_fn=cnn_model_fn, model_dir=r"..\..\model_save"")
+          model_fn=cnn_model_fn, model_dir=tf_model_path)
 
       # Set up logging for predictions
       # Log the values in the "Softmax" tensor with label "probabilities"

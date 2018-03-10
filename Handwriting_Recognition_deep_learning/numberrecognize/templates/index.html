@@ -8,11 +8,16 @@
     <script>
     var csrf =  '{{ csrf_token }}'
     </script>
+    {% load staticfiles%}
+    <link rel="stylesheet" href="{% static "css/progress_bar.css" %}">
+    <link rel="stylesheet" href="{% static "css/button.css" %}">
+    <link rel="stylesheet" href="{% static "css/background.css" %}">
+
   </head>
-<body>
+<body class="bg">
 
 <center>
-<p><font size="3" color="blue">Number Recognize</font></p>
+<p><font size="20" color="blue">Number Recognize</font></p>
 
 <br>
 <br>
@@ -22,18 +27,22 @@
 <br>
 <br>
 <br>
-<button type="button" onclick="clearPad()">clear</button>
+<button class="button" onclick="clearPad()">clear</button>
 <br>
 <br>
-<button type="button" onclick="gray_level_piex_acces()">submit</button>
+<button  class="button2" onclick="gray_level_piex_acces()">submit</button>
 <br>
 <br>
 <label id="number_result">result</label>
+<div  id="progress_bar" class="loader_freeze">
+</div>
 <p><b>This application powerd by Yu Nian ou</b></p>
 </center>
 
 <canvas id="myCanvas2" width="64" height="64" style="display:none"></canvas>
-{% load staticfiles%}
+
 <script type="text/javascript" src= "{% static "js/index.js" %} " ></script>
+
+
 
 </body>

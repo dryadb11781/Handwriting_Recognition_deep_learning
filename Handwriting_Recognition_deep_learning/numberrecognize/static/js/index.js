@@ -7,6 +7,7 @@ var ctx2 = canvas2.getContext('2d');
 var resultcsv = [];
 var user_name;
 var zero=0,one=0,two=0,three=0,four=0,five=0,six=0,seven=0,eight=0,nine=0;
+var progress_bar=document.getElementById("progress_bar");
 function mouseDown(e){
     this.draw=true;
     this.ctx = this.getContext("2d");
@@ -68,9 +69,16 @@ function gray_level_piex_acces(){
     }
     image_array.push(data2[i]);//save this number
   }
-//console.log( JSON.stringify(image_array) );
+
+  //console.log(progress_bar)
+
+  var progress_bar = document.getElementById('progress_bar');
+  progress_bar.style.fontSize = "20px";
+  progress_bar.textContent="processing"
+  progress_bar.className = "loader";
 predict_result_label = document.getElementById('number_result');
-$.get('/predict/?test='+image_array.toString(), function(data, status){predict_result_label.textContent=data});
+$.get('/predict/?test='+image_array.toString(), function(data, status){predict_result_label.textContent=data;progress_bar.className = "loader_freeze";progress_bar.textContent=""});
+
 
 
 

@@ -18,7 +18,8 @@ from app.views import index,predict,data_generator,upload_csv_data,upload_csv_da
 from django.conf.urls.static import static
 from django.conf import settings
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', index),
+    #url(r'^admin/', include(admin.site.urls)),
     url(r'^index/$',index),
     url(r'^predict/$',predict),
     url(r'^data_generator/$',data_generator),
